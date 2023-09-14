@@ -107,7 +107,8 @@ fun MarkdownText(
                 }
             }
             textView.maxLines = maxLines
-        }
+        },
+        onReset = {}
     )
 }
 
