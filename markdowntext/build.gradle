@@ -13,6 +13,10 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+
+        aarMetadata {
+            minCompileSdk = 34
+        }
     }
 
     buildTypes {
@@ -22,9 +26,8 @@ android {
         }
     }
     publishing {
-        singleVariant('release') {
+        singleVariant("release") {
             withSourcesJar()
-            withJavadocJar()
         }
     }
     buildFeatures {
