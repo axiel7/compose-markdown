@@ -2,7 +2,6 @@ buildscript {
     ext.compose_version = "1.6.7"
     ext.library_version = "0.3.1"
     ext.kotlin_version = "1.9.23"
-    ext.coil_version = "3.0.0-alpha06"
     repositories {
         google()
         mavenCentral()
